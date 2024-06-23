@@ -1,0 +1,82 @@
+/**
+* @name Ginto Discord Font
+* @author Spyros#4024
+* @description Discord changed their font recently, this will change it back to the old one. The only downside is that the italic text will not work
+* @version 0.0.1
+* @source https://github.com/SpyroticGoose/ZeldaFontOnDiscord
+*/
+
+:root {
+    --font-primary: ".", "Hylia Font Beta", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+    --font-display: ".", "Hylia Font Beta", "Helvetica Neue", "Helvetica", "Arial", sans-serif !important;
+}
+
+@font-face {
+    font-family: ".";
+    font-style: normal;
+    font-weight: 300;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: italic;
+    font-weight: 300;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: italic;
+    font-weight: 400;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: normal;
+    font-weight: 500;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: italic;
+    font-weight: 500;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: normal;
+    font-weight: 600;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: italic;
+    font-weight: 600;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: normal;
+    font-weight: 700;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: ".";
+    font-style: italic;
+    font-weight: 700;
+    src: url("https://cdn.jsdelivr.net/gh/SpyroticGoose/ZeldaFontOnDiscord@main/HyliaSerifBeta-Regular.woff") format("woff");
+}
